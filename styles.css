@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9fafb;
+    color: #1a202c;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    color: #000000;
+}
+
+p {
+    margin: 0;
+    color: #292a2d;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Header Styles */
+.header {
+    background: linear-gradient(to right, #2a4365, #2c5282);
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    margin: 10px 0;
+}
+
+.contact {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+.button.yellow {
+    background-color: #ecc94b;
+    color: #1a202c;
+}
+
+.button.yellow:hover {
+    background-color: #d69e2e;
+}
+
+.button.blue {
+    background-color: white;
+    color: #2c5282;
+    border: 1px solid #2c5282;
+}
+
+.button.blue:hover {
+    background-color: #e2e8f0;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 0;
+}
+
+.about {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skills {
+    background-color: #edf2f7;
+}
+
+.projects, .certifications {
+    background-color: white;
+}
+
+.grid {
+    display: grid;
+    gap: 20px;
+}
+
+.grid .card {
+    background: #f7fafc;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.grid .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styles */
+.footer {
+    background: linear-gradient(to right, #2a4365, #2c5282);
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
